@@ -38,7 +38,7 @@ try {
     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml" -OutFile "$WorkDir\sysmonconfig.xml"
 }
 catch {
-    Write-Host "[X] Error de descarga. Verifica conexión a internet." -ForegroundColor Red
+    Write-Host "[X] Error de descarga. Verifica conexion a internet." -ForegroundColor Red
     Break
 }
 
