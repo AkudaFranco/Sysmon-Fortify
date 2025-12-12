@@ -25,7 +25,7 @@ if (-not (Test-Path -Path $WorkDir)) {
 }
 Set-Location $WorkDir
 
-Write-Host "[*] Iniciando despliegue de Defensa en Profundidad..." -ForegroundColor Cyan
+Write-Host "[*] Iniciando despliegue de Sysmon para Endpoint Critico..." -ForegroundColor Cyan
 
 # 2. Descargar Binarios y Configuración
 Write-Host "[-] Descargando binarios y configuracion..."
