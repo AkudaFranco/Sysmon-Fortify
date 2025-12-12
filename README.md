@@ -15,7 +15,7 @@ A diferencia de los instaladores estándar, este script gestiona escenarios de f
 * **🌐 Visibilidad de Red:** Fuerza el flag `-n` durante la instalación para asegurar el registro de **Conexiones de Red (Event ID 3)**, vital para detectar movimientos laterales y beacons de C2.
 * **🛡️ Integración con Wazuh:** Detecta y reinicia automáticamente el servicio `WazuhSvc` tras una instalación exitosa para asegurar que el agente comienza a ingerir los nuevos logs de inmediato.
 * **✅ Verificación de Integridad:** Valida permisos de Administrador antes de la ejecución y verifica el estado del servicio post-instalación.
-* **console-Safe:** Codificación de salida sanitizada para evitar errores de caracteres en diferentes configuraciones regionales de consola.
+* **🔒 cconsole-Safe:** Codificación de salida sanitizada para evitar errores de caracteres en diferentes configuraciones regionales de consola.
 
 ## 🛠️ Uso
 
