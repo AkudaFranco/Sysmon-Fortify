@@ -26,12 +26,12 @@ A diferencia de los instaladores estándar, este script gestiona escenarios de f
 
 ### Instalación
 
-1.  Descarga el archivo `Install-Sysmon.ps1`.
+1.  Descarga el archivo `Sysmon-Fortify.ps1`.
 2.  Abre PowerShell como **Administrador**.
 3.  Ejecuta el script:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Install-Sysmon.ps1
+powershell -ExecutionPolicy Bypass -File .\Sysmon-Fortify.ps1
 ```
 
 ## ⚙️ Cómo Funciona (Flujo Lógico)
